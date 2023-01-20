@@ -1,0 +1,92 @@
+.border {
+-fx-background-color: #171717;
+}
+
+.desc {
+-fx-max-width: 150px;
+-fx-wrap-text: true;
+-fx-font-size: 12px;
+-fx-text-fill: #ffffff;
+-fx-padding: 10 5 10 5; /* top, right, bottom, left */
+}
+
+.solved {
+-fx-font-size: 12px;
+-fx-text-fill: #ffffff;
+-fx-padding: 30 5 10 5; /* top, right, bottom, left */
+}
+
+.notsolved {
+-fx-font-size: 12px;
+-fx-text-fill: #db1e1a;
+-fx-padding: 30 5 10 5; /* top, right, bottom, left */
+}
+
+.controlbox {
+-fx-padding: 10 0 5 0; /* top, right, bottom, left */
+
+}
+
+
+.control {
+-fx-font-size: 12px;
+-fx-text-fill: #ffffff;
+-fx-background-color: #3d3d3a;
+-fx-border-width: 2px;
+-fx-border-color: #ffffff;
+-fx-border-radius: 2px;
+-fx-background-radius: 2px;
+}
+
+.index {
+-fx-font-size: 12px;
+-fx-text-fill: #ffffff;
+-fx-padding: 5 5 5 10; /* top, right, bottom, left */
+}
+
+.empty {
+-fx-pref-width: 50px;
+-fx-pref-height: 50px;
+}
+
+.lamp {
+-fx-background-image: url("light-bulb.png");
+-fx-background-size: 50px;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+}
+
+.illegallamp {
+-fx-background-image: url("red-light-bulb.png");
+-fx-background-size: 50px;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+}
+
+.Sclue {
+-fx-background-color: #3d3d3a;
+-fx-text-fill: #ffffff;
+-fx-font-size: 20px;
+-fx-pref-width: 50px;
+-fx-pref-height: 50px;
+}
+
+.Uclue {
+-fx-background-color: #3d3d3a;
+-fx-text-fill: #db1e1a;
+-fx-font-size: 20px;
+-fx-pref-width: 50px;
+-fx-pref-height: 50px;
+}
+
+.wall {
+-fx-background-color: #3d3d3a;
+-fx-pref-width: 50px;
+-fx-pref-height: 50px;
+}
+
+.lit {
+-fx-background-color: #e6c805;
+-fx-pref-width: 50px;
+-fx-pref-height: 50px;
+}
