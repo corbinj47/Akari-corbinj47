@@ -20,7 +20,7 @@ public interface Model {
    * illuminated by a nearby lamp in the same column or row (and which is not blocked by a wall or
    * clue). If the cell itself contains a lamp, this method should also return true. Throws an
    * IndexOutOfBoundsException if r or c is out of bounds, or an IllegalArgumentException if the
-   * cell is not type CORRIDOR
+   * cell isn't type CORRIDOR
    */
   boolean isLit(int r, int c);
 
